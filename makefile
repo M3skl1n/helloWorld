@@ -5,5 +5,4 @@ a.out: helloWorld.o
 helloWorld.o: helloWorld.cpp
 	g++ -c helloWorld.cpp
 
-clean:
-        rm a.out *.o
+clean: rm a.out *.o
