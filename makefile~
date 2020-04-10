@@ -1,6 +1,6 @@
 a.out: helloWorld.o
-g++ helloWorld.cpp
+	g++ helloWorld.o
 
 
 helloWorld.o: helloWorld.cpp
-g++ -c helloWorld.cpp
+	g++ -c helloWorld.cpp
